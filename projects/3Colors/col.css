@@ -1,0 +1,28 @@
+body{
+    flex: 1px;
+    width: 100%;
+}
+.circle{
+    padding: 2px;
+    margin: 2px;
+    margin-bottom: 10px;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    border: 2px dashed black;
+    color: black;
+    max-width: 400px;
+    background: linear-gradient(blue, gold, white);
+}
+.text{
+    border: 2px;
+    margin: 2px;
+    padding: 2px;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200px;
+    font-size: 39px;
+    text-shadow: 2px 5px 4px purple;
+}

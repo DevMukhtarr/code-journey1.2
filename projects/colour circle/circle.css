@@ -1,0 +1,11 @@
+body{
+    flex: 1;
+}
+body div div{
+    background-color: rgb(255, 255, 0);
+    border-radius: 70px;
+    padding: 50px;
+    max-width: 260px;
+    margin-top: 40px;
+    display: grid;
+}
