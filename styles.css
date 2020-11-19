@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: Goldman;
+    src: url('fonts/Goldman-Regular.ttf');
+}
+@font-face{
+    font-family: Architect;
+    src: url('fonts/ArchitectsDaughter-Regular.ttf');
+}
+body{
+    text-align: center;
+    background-color: azure;
+}
+div{
+    display: flex;
+}
+h1{
+    margin-bottom: 2px;
+    font-family: Goldman;
+}
+.home{
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-direction: column;
+}
+.days{
+    padding: 2.5%;
+    margin-top: 1%;
+    background-color: rgb(70, 107, 139);
+    color: white;
+    font-family: Architect;
+    font-size: large;
+    border: 2px solid black;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    background-color: rgba(6, 78, 78, 0.555);
+    color: black;
+}
