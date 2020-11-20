@@ -13,6 +13,10 @@ body{
     font-family: Goldman;
     src: url('../fonts/Goldman-Regular.ttf');
 }
+@font-face{
+    font-family: Time;
+    src: url('../fonts/TickingTimebombBB.ttf');
+}
 .days--and--tasks{
     text-align: center;
 }
@@ -34,6 +38,13 @@ body{
     padding: 1%;
     border-radius: 2px;
     background-image: linear-gradient(rgba(255, 0, 0, 0.233), rgba(255, 255, 0, 0.13));
+}
+.hours{
+    font-family: Time;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    color: silver;
 }
 @media screen and (max-width: 760px){
     .task{
