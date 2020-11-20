@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(136, 128, 113);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: Architect;
+    src: url('../fonts/ArchitectsDaughter-Regular.ttf');
+}
+@font-face{
+    font-family: Goldman;
+    src: url('../fonts/Goldman-Regular.ttf');
+}
+.days--and--tasks{
+    text-align: center;
+}
+.task{
+    font-family: Architect;
+    font-size: 25px;
+}
+.day{
+    font-family: Goldman;
+    font-size: 20px;
+    padding: 1%;
+}
+.days{
+    border: 2px solid darkblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    margin-top: 0.5%;
+    padding: 1%;
+    border-radius: 2px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.233), rgba(255, 255, 0, 0.13));
+}
+@media screen and (max-width: 760px){
+    .task{
+        font-family: Architect;
+        font-size: 20px;
+    }
+}
