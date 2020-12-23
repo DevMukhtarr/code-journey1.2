@@ -34,13 +34,13 @@ h1{
     font-family: Goldman;
 }
 .days{
-    border: 2px solid darkblue;
+    border: 2px solid rgb(177, 166, 149);
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 1%;
     margin-top: 0.5%;
     padding: 1%;
-    border-radius: 2px;
+    border-radius: 5px;
     background-image: linear-gradient(rgba(255, 0, 0, 0.233), rgba(255, 255, 0, 0.13));
 }
 .hours{
