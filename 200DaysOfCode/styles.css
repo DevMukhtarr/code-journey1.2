@@ -66,3 +66,11 @@ img{
         font-size: 20px;
     }
 }
+.link{
+    text-decoration: none;
+    color: midnightblue;
+    margin: auto;
+}
+.link:hover{
+    color: white;
+}

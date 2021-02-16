@@ -43,3 +43,8 @@ a:hover{
     background-color: rgba(6, 78, 78, 0.555);
     color: black;
 }
+.link{
+    text-decoration: none;
+    color: darkcyan;
+    margin: auto;
+}
